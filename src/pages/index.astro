@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Badge from "../components/Badge.astro";
+import Experience from "../components/Experience.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import SocialHero from "../components/SocialHero.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<Layout title="Welcome to Astro. Hola">
+	<main>
+ <!-- HERO SECTION CONTAINER -->
+		<SectionContainer>
+ <!-- HERO -->
+			<Hero />
+ <!-- SOCIAL MEDIA -->
+	<SectionContainer>
+		<SocialHero />
+	</SectionContainer>
+	</SectionContainer>
+ <!-- FIN SECTION CONTAINER HERO & SOCIAL MEDIA -->
+
+
+ <!-- EXPERIENCE -->
+		<SectionContainer>
+			<Experience />
+		</SectionContainer>
+	</main>
+</Layout>

@@ -1,0 +1,47 @@
+---
+import SocialPill from "./SocialPill.astro";
+import LinkedinIcon from "../components/icons/Linkedin.astro";
+import SocialPill from "../components/SocialPill.astro";
+import GithubIcon from "../components/icons/Github.astro";
+import Instagram from "../components/icons/Instagram.astro";
+import X from "../components/icons/X.astro";
+import Pinterest from "../components/icons/Pinterest.astro";
+import Discord from "../components/icons/Discord.astro";
+import Trello from "../components/icons/Trello.astro";
+
+---
+
+<nav class="flex justify-between flex-wrap pb-20">
+  <SocialPill
+    href="https://www.linkedin.com/in/jobuco-jordan-building-code-566a3a303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  >
+    <LinkedinIcon class="size-6" />
+    LinkedIn
+  </SocialPill>
+  <SocialPill href="https://github.com/jordanbuco">
+    <GithubIcon class="size-6" />
+    GitHub
+  </SocialPill>
+  <SocialPill href="https://www.instagram.com/jordanbuildingcode">
+    <Instagram class="size-6" />
+    Instagram
+  </SocialPill>
+  <SocialPill href="https://x.com/jobucode">
+    <X class="size-6" />
+    Twitter
+  </SocialPill>
+  <SocialPill href="https://pin.it/4AZBy33ZC">
+    <Pinterest class="size-6" />
+    Pinterest
+  </SocialPill>
+  <SocialPill href="https://discord.gg/HfUxemKD">
+    <Discord class="size-6" />
+    Discord
+  </SocialPill>
+  <SocialPill
+    href="https://trello.com/invite/b/66ad10aa17202be242219fde/ATTI984b9e81819bcd4360372f8af01788c9E9FF18AC/JoBuCo%E2%80%99s%20Share"
+  >
+    <Trello class="size-6" />
+    Trello
+  </SocialPill>
+</nav>
